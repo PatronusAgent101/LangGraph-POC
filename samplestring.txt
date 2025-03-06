@@ -1,0 +1,81 @@
+[
+    {
+        "Summary for Passed Tests": {
+            "Key Observations": {
+                "Total Tests": 3120,
+                "Overall Population Average": "281.75%",
+                "Sample Size Average": "34.75%",
+                "Sample Ratio Average": "34.69%",
+                "Sample Ratio Standard Deviation": "28.92%"
+            },
+            "Potential Patterns or Anomalies": {
+                "Min Deviation": "1.42%",
+                "Max Deviation": "100%",
+                "By Country": {
+                    "BAHRAIN": "65.70%",
+                    "BANGLADESH": "36.67%",
+                    "BOTSWANA": "8.19%",
+                    "BRUNEI DARUSSALAM": "34.10%",
+                    "CHINA": "100%",
+                    "COTE D'IVOIRE": "34.10%",
+                    "GAMBIA": "33.57%",
+                    "GHANA": "54.64%",
+                    "HONG KONG": "4.18%",
+                    "INDIA": "15.39%",
+                    "INDONESIA": "50.57%",
+                    "JERSEY": "35.11%",
+                    "KENYA": "5.11%",
+                    "MALAYSIA": "12.10%",
+                    "NEPAL": "34.10%",
+                    "NIGERIA": "7.27%",
+                    "PAKISTAN": "22.67%",
+                    "SIERRA LEONE": "33.57%",
+                    "SINGAPORE": "5.32%",
+                    "SRI LANKA": "34.10%",
+                    "TAIWAN": "51.93%",
+                    "TANZANIA, UNITED REPUBLIC OF": "34.10%",
+                    "UGANDA": "29.71%",
+                    "UNITED ARAB EMIRATES": "7.76%",
+                    "VIETNAM": "33.23%",
+                    "ZAMBIA": "24.51%",
+                    "ZIMBABWE": "36.58%"
+                }
+            },
+            "Recommendations for Further Analysis": [
+                "Investigate the high deviation in sample ratios for countries like China (100%) and Bahrain (65.70%) to understand the underlying reasons.",
+                "Analyze the low deviation in sample ratios for countries like Hong Kong (4.18%) and Kenya (5.11%) to ensure that the sampling process is consistent and representative.",
+                "Conduct a deeper analysis on countries with mid-range deviations (e.g., Ghana, Indonesia, Taiwan) to identify any specific factors contributing to these variations.",
+                "Review the sampling methodology to ensure that it is robust and can be applied uniformly across different countries and regions.",
+                "Consider implementing additional checks or controls for countries with high deviations to ensure data accuracy and reliability."
+            ]
+        }
+    },
+    {
+        "Summary for Failed Tests": {
+            "Key Observations": {
+                "Total Tests Conducted": 120,
+                "Countries Impacted": [
+                    "SINGAPORE",
+                    "HONG KONG"
+                ],
+                "Overall Population Average": "1457.5%",
+                "Defect Average Percentage": "6.0%",
+                "Sample Average Percentage": "31.5%",
+                "Sample to Population Average Percentage": "2.27%",
+                "Sample to Population Standard Deviation Percentage": "0.45%"
+            },
+            "Potential Patterns or Anomalies": {
+                "High Defect Count in Hong Kong": "Hong Kong has a higher defect count (10) compared to Singapore (2).",
+                "Daily Report Issues": "Falcon system had 9 exceptions where daily perm block reports were not sent on time, indicating a potential issue with daily monitoring.",
+                "Test Mode Issues": "Several defects were related to rules being in test mode and not live, leading to unauthorized updates and removals.",
+                "Consistent Issues in Singapore": "Singapore had consistent issues with blocklisting removal approvals not being available for multiple cases."
+            },
+            "Recommendations for Further Analysis": {
+                "Daily Monitoring Improvement": "Investigate and improve the daily monitoring process for the Falcon system to ensure timely report generation and sharing.",
+                "Test Mode Protocols": "Review and enhance protocols for handling rules in test mode to prevent unauthorized updates and ensure proper approvals are in place.",
+                "Cross-Market Support": "Implement and monitor the effectiveness of the backup manager identified for cross-market support to ensure timely report sign-offs.",
+                "Country-Specific Analysis": "Conduct a deeper analysis of the defects in Hong Kong and Singapore to identify root causes and implement targeted improvements."
+            }
+        }
+    }
+]
